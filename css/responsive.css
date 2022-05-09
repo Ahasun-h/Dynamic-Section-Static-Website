@@ -1,0 +1,93 @@
+/* Medium */
+
+@media (min-width: 992px) and (max-width: 1159px) {
+    /* Header */
+    #header.transparent-header.full-header #logo {
+        width: 110px;
+    }
+    /* Logo  */
+    #logo img {
+        max-width: 89% !important;
+        max-height: 67px !important;
+    }
+    .full-header #logo {
+        padding-right: 0px;
+    }
+    /* menu */
+    .menu-link {
+        padding: 39px 8px;
+    }
+}
+
+
+/* small */
+
+@media (min-width: 292px) and (max-width: 991px) {
+    /* header */
+    #header {
+        position: fixed;
+        z-index: 100000;
+        width: 100%;
+    }
+    /* logo */
+    #logo img {
+        height: 76px;
+        padding: 12px 0px;
+    }
+    /* portfolio Feacbook Link */
+    .button.button-full {
+        padding: 30px 20px;
+    }
+    /* Mobile Menu Color */
+    .menu-link {
+        color: #444;
+    }
+    /* members_reviews image */
+    .section .container .align-items-center .satisfied_customers_image {
+        max-width: 62% !important;
+    }
+    /* Members Reviews Contents */
+    .members_reviews .col-6 {
+        padding: 0% 5%;
+    }
+}
+
+
+/*xm-small  */
+
+@media (min-width: 292px) and (max-width: 410px) {
+    /* Header */
+    #header {
+        position: fixed;
+        z-index: 100000;
+        width: 100%;
+    }
+    /* Logo */
+    #logo img {
+        height: 76px;
+        padding: 12px 0px;
+    }
+    /* Lead */
+    .lead {
+        font-size: 1.0rem;
+        font-weight: 300;
+        text-align: left !important;
+    }
+    /* Portfolio Feacbook Link */
+    .button.button-full {
+        padding: 30px 20px;
+        font-size: 20px;
+    }
+    /* Members Reviews Image */
+    .section .container .align-items-center .satisfied_customers_image {
+        max-width: 56% !important;
+    }
+    /* Members Reviews Contents */
+    .members_reviews .col-6 {
+        padding: 0% 5%;
+    }
+    .members_reviews .testimonial h4 font {
+        font-weight: 300 !important;
+        font-size: 14px;
+    }
+}

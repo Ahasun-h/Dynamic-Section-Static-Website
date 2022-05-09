@@ -1,0 +1,204 @@
+/*Montserrat Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,700;0,900;1,100;1,200;1,300&display=swap');
+* Font Style */ h3,
+h4,
+i,
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff !important;
+}
+
+p {
+    text-align: justify;
+}
+
+
+/* About US Page */
+
+
+/* ShynXL About Content */
+
+.about_content {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px !important;
+    text-align: left !important;
+    color: #fff !important;
+    font-weight: 300 !important;
+    text-align: justify !important;
+}
+
+.cofunder h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px !important;
+    text-align: center !important;
+    color: #F7E27C !important;
+    font-weight: 700 !important;
+    color: #D7AF46;
+}
+
+
+/* ShynXL Companies Title */
+
+.shynxl_companies h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px !important;
+    text-align: left !important;
+    color: #F7E27C !important;
+    font-weight: 700 !important;
+}
+
+
+/* ShynXL Companies List */
+
+.shynxl_companies ul li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px !important;
+    text-align: left !important;
+    color: #fff !important;
+    font-weight: 300 !important;
+}
+
+
+/* About Cofunder */
+
+#oc-team h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px !important;
+    text-align: left !important;
+    color: #fff !important;
+    font-weight: 600;
+}
+
+#oc-team p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px !important;
+    text-align: justify !important;
+    color: #fff !important;
+}
+
+
+/* Cofounder Slider */
+
+#demo {
+    background: transparent;
+    max-width: 100%;
+    margin: auto
+}
+
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 1rem 8rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1.2rem
+    }
+}
+
+.carousel-caption img {
+    width: 15rem;
+    border-radius: 0%;
+    margin-bottom: 2rem;
+}
+
+@media(max-width:767px) {
+    .carousel-caption img {
+        width: 20rem;
+        border-radius: 0rem;
+        margin-top: 0rem
+    }
+}
+
+#image-caption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    color: #ada88e;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.read-more-wrap .read-more-mask {
+    background-color: transparent !important;
+}
+
+@media(min-width: 292px) and (max-width:767px) {
+    #image-caption {
+        font-style: normal;
+        font-size: 20px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.2em;
+    }
+}
+
+#demo p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    color: #fff;
+}
+
+#demo i {
+    background-color: transparent;
+    padding: 1.4rem
+}
+
+@media(min-width: 292px) and (max-width:767px) {
+    #demo i {
+        padding: 0.8rem
+    }
+}
+
+.carousel-control-prev {
+    justify-content: flex-start
+}
+
+.carousel-control-next {
+    justify-content: flex-end
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: none;
+    opacity: unset
+}
+
+
+/* Center Center */
+
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+.blurslider-gradient {
+    background: -webkit-linear-gradient(left, #3595E5 0%, #57AA50 50%, #3595E5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.blurslider-button {
+    background: -webkit-linear-gradient(left, #ffffff 0%, #DBB448 50%, #ffffff 100%);
+}

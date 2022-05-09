@@ -1,0 +1,414 @@
+/*Montserrat Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,700;0,900;1,100;1,200;1,300&display=swap');
+
+/* Start : Font Style */
+
+h3 {
+    color: #fff !important;
+    font-weight: 700;
+}
+
+span {
+    font-weight: 700;
+}
+
+h4,
+i,
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff !important;
+}
+
+li {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff !important;
+}
+
+
+/* Education Service */
+
+.education_content .align-items-center {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Start : ShynXL Content Area  */
+
+.education_content .content_filde {
+    padding: 50px 0px;
+}
+
+
+/* End : ShynXL Content Area  */
+
+.education_content .blurslider-gradient {
+    background: -webkit-linear-gradient(left, #3595E5 0%, #57AA50 50%, #3595E5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.education_content .blurslider-button {
+    background: -webkit-linear-gradient(left, #ffffff 0%, #DBB448 50%, #ffffff 100%);
+}
+
+.education_content .content-wrap {
+    padding: 0px;
+}
+
+
+/* ============ Card Blog ============ */
+
+.education_content .card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.education_content .card .card-image {
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.education_content .card-blog {
+    margin-top: 30px;
+    background: transparent;
+    box-shadow: ;
+}
+
+.education_content .card-blog .card-caption {
+    margin-top: 5px;
+}
+
+.education_content .card-blog .card-image+.category {
+    margin-top: 20px;
+}
+
+.education_content .card-raised {
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.education_content .card .author a .ripple-cont {
+    display: none;
+}
+
+.education_content .table {
+    margin-bottom: 0px;
+}
+
+.education_content .card .table {
+    padding: 15px 30px;
+}
+
+.education_content .text-info {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background: #044076;
+}
+
+.education_content .card [class*="table-"] .card-description {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+@media (min-width: 200px) and (max-width: 575px) {
+    .education_content .content-wrap {
+        padding: 0px 0;
+    }
+    .education_content .content_padding {
+        padding: 0px 5%;
+    }
+    .education_content .edu_text {
+        font-size: 14px;
+    }
+}
+
+
+/* SHYNXL TRAVEL AND TOURISM */
+
+.travel_content .item-padding {
+    margin: 20px 0px;
+}
+
+.travel_content .travel_logo li {
+    display: inline-block;
+    width: 17%;
+    height: 55px;
+    background: #fff;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, .1);
+    text-align: center;
+    padding: 6px;
+    margin: 2% 1%;
+    border-radius: 3px;
+}
+
+.travel_content .travel_logo img {
+    height: 50px;
+    width: 100%;
+}
+
+.travel_content .travel_button {
+    background: linear-gradient(to right, #28adee 0, #3955bf 100%);
+    color: #fff;
+    font-size: 13px;
+    height: 45px;
+    border: 0;
+    border-radius: 50px;
+    font-weight: 600;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    width: 50%;
+    z-index: 99;
+    position: relative;
+    padding: 14px;
+    display: block;
+    text-align: center;
+    margin-top: 7px;
+    transition: 1s;
+}
+
+.travel_content .travel_button:hover {
+    width: 52%;
+    color: #fff;
+}
+
+.travel_content .inner-white-div {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+    height: 450px;
+    border-radius: 5px;
+}
+
+.travel_content .img-div {
+    text-align: center;
+}
+
+.travel_content .img-div img {
+    height: 110px;
+}
+
+.travel_content .travel_service {
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.travel_content .travel_service:hover {
+    margin-top: 0px;
+}
+
+.travel_content .service-heading {
+    color: #044076;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    margin: 25px 0;
+}
+
+.travel_content .discription-text {
+    color: #939bb5;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.travel_content .travel_text {
+    text-align: justify;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .travel_content .inner-white-div {
+        height: 490px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 575px) {
+    .travel_content .travel_content .content-wrap {
+        padding: 0px 0;
+    }
+    .travel_content .travel_content .content_padding {
+        padding: 0px 5%;
+    }
+    .travel_content .travel_content .travel_text {
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+    .travel_content .travel_service {
+        padding: 0% 5%;
+        margin: 0% 0% 2% 0%;
+    }
+    .travel_content .inner-white-div {
+        height: auto;
+    }
+}
+
+
+/* SHYNXL FOREX AND CRYPTO TRADING */
+
+.trading_content .blurslider-gradient {
+    background: -webkit-linear-gradient(left, #3595E5 0%, #57AA50 50%, #3595E5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.trading_content .blurslider-button {
+    background: -webkit-linear-gradient(left, #ffffff 0%, #DBB448 50%, #ffffff 100%);
+}
+
+.trading_content .trading_content_text {
+    text-align: justify;
+}
+
+.trading_content .trading_text h3 {
+    text-align: left;
+    margin-top: 13px;
+}
+
+.trading_content .trading_text p {
+    text-align: justify;
+}
+
+@media (min-width: 200px) and (max-width: 575px) {
+    .trading_content .content_padding {
+        padding: 0px 5%;
+    }
+}
+
+
+/* SHYNXL HEALTH AND BEAUTY */
+
+.health_content .content_filde {
+    padding: 50px 0px;
+}
+
+.health_content .fbox-border.fbox-dark .fbox-icon a {
+    border: 1px solid #3595E5 !important;
+}
+
+.health_content .product_type_title {
+    text-align: center;
+}
+
+.health_content .product-price {
+    color: #fff;
+}
+
+.health_content .product-image {
+    height: 342px;
+}
+
+@media (min-width: 200px) and (max-width: 575px) {
+    .health_content .content-wrap {
+        padding: 0px 0;
+    }
+    .health_content .content_padding {
+        padding: 0px 5%;
+    }
+    .health_content .health_text {
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+    .health_content .inner-white-div {
+        height: auto;
+    }
+    .health_content .product-image {
+        height: 350px;
+    }
+}
+
+
+/* SHYNXL TECHNOLOGY */
+
+.technology-content .content_filde {
+    padding: 50px 0px;
+}
+
+.technology-content .technology_text {
+    padding: 0% 5%;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .technology-content .content_padding {
+        padding: 5% 5%;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 575px) {
+    .technology-content .technology_text {
+        padding: 20% 10%;
+    }
+    .technology-content .content_padding {
+        padding: 5% 5%;
+    }
+    .technology-content .technology-content-item li {
+        padding: 0% 7%;
+        text-align: left;
+    }
+    .technology-content .list-group {
+        padding: 2% 5%;
+    }
+    .technology-content .tab-content {
+        padding: 0% 5%;
+    }
+    .technology-content .content_filde {
+        padding: 0px 0px;
+    }
+}
+
+
+/* SHYNXL FASHION AND DESIGN */
+
+.fashion-content .row>div {
+    padding: 0 4px !important;
+}
+
+.fashion-content .content_filde {
+    padding: 0px 0px;
+}
+
+.content_filde .content-wrap {
+    position: relative;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.fashion-content .fashion-content-item-container {
+    padding: 0% 0% 9% 0%;
+}
+
+.fashion-content .fashion-content-text {
+    padding: 0% 5%;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .content_padding {
+        padding: 5% 5%;
+    }
+    .fashion_text {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 575px) {
+    .fashion-content .fashion-content-text {
+        padding: 20% 10%;
+    }
+    .fashion-content .content_padding {
+        padding: 5% 5%;
+    }
+    .fashion-content .fashion_text {
+        font-size: 14px;
+    }
+}
